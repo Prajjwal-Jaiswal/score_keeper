@@ -10,7 +10,7 @@ let p2score = 0;
 
 let playto = document.querySelector("#playto");
 let maxscore = playto.value;
-let gameOver = false;
+let gameOver = true;
 //increase p1 points
 p1increase.addEventListener("click", function () {
   if (gameOver === false) {
